@@ -8,12 +8,15 @@
     "start": "node dist/index.js",
     "dev": "nodemon --watch src --ext ts --exec \"npm run build && npm run start\"\n"
   },
+
   "dependencies": {
     "axios": "^1.7.9",
     "body-parser": "^1.20.3",
+    "bullmq": "^5.41.5",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "ioredis": "^5.5.0",
     "mongoose": "^8.10.1",
     "morgan": "^1.10.0",
     "nodemon": "^3.1.9",
